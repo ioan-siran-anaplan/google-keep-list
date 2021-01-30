@@ -1,0 +1,9 @@
+.textBlock {
+    display:flex;
+    flex-direction: row;
+    margin: 5px;
+    border: 1px solid black;
+}
+.textBlock >p {
+    margin: 0;
+}
