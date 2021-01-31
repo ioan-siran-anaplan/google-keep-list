@@ -1,9 +1,24 @@
+.herlet {
+    max-width: 400px;
+    margin: 0 auto; 
+}
 .textBlock {
     display:flex;
     flex-direction: row;
-    margin: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 0;
+    margin: 5px 0;
     border: 1px solid black;
 }
 .textBlock >p {
     margin: 0;
+    text-overflow: clip;
+}
+.textBlock > button {
+    
+}
+.addButton{
+    width: 30%;
+    margin: 0 auto;
 }
