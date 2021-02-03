@@ -73,7 +73,7 @@ const Item = (props) => {
     }
 
     const checkEnter = (e)=>{
-        if(e.keyCode===13)
+        if(e.keyCode===13 || e.keyCode===27)
             onBlurListener()
     }
     const onEditField = (e)=>{
@@ -108,7 +108,7 @@ const TodoList  = (props) => {
      
     return(
         <div className="herlet">
-            TodoList
+            <div className="titleBox">TodoList</div>
             <ItemList  />
             
         </div>
